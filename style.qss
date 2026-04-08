@@ -1,0 +1,39 @@
+/* 全局字体设置 */
+QWidget {
+    font-family: "Microsoft YaHei";
+    font-size: 14px;
+}
+
+/* 侧边栏样式 */
+QListWidget {
+    border: none;
+    background-color: #f0f0f0;
+    outline: 0;
+}
+
+QListWidget::item {
+    height: 45px;
+    padding-left: 15px;
+    color: #333;
+    border-radius: 5px;
+    margin: 2px 5px;
+}
+
+QListWidget::item:hover {
+    background-color: #e5e5e5;
+}
+
+/* 选中项：QQ音乐绿 */
+QListWidget::item:selected {
+    background-color: #31c27c;
+    color: white;
+}
+
+/* 搜索框样式 */
+QLineEdit {
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    padding: 0 10px;
+    background-color: white;
+    selection-background-color: #31c27c;
+}
